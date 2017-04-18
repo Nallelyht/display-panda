@@ -19,6 +19,7 @@ a{
     color: whitesmoke;
     padding: 10px;
     text-decoration: underline;
+	font-family: verdana;
 }
 a:hover{
     color: #666633;
@@ -33,7 +34,8 @@ span{
 	margin-left: 90%;
 	text-align: right;
 	color: aliceblue;
-	padding: 2px 2px
+	padding: 2px 2px;
+	font-family: verdana;
 	
 }
 .imagen{
@@ -44,11 +46,13 @@ span{
     height: 200px;
     padding-top: 6px;
 	visibility: visible;
+	
 }
 .panda{
     width: 100%;
     height: 90%;
     vertical-align: middle;
+	
 }
 .botones{
 	background-color: #666633;
@@ -63,8 +67,9 @@ button{
 	margin-top: 20px;
 	padding: 5px 80px;
 	color:#fff;
+	font-family: verdana;
 }
-.lorem{
+.p{
 	text-align: justify;
 	margin-top: 30px;
 	margin-left: 30px;
@@ -72,4 +77,6 @@ button{
 	width: 420px;
 	height: 25px;
 	display: inline-block;
+	color: aliceblue;
+	font-family: verdana;
 }
