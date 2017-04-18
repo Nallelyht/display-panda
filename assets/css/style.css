@@ -24,6 +24,7 @@ a:hover{
     color: #666633;
 }
 .contenedor{
+	padding-top: 100px;
     background-color:#666633;
     height: 100%;
     width: 100%;
@@ -44,12 +45,16 @@ a:hover{
 .botones{
 	background-color: #666633;
 	align-content: center;
+	padding-left: 200px
 }
 
 button{
 	background-color: #FF6666;
 	text-align: center;
-	margin-top: 15px;
-	padding: 20px 10px
-	
+	margin-top: 10px;
+	padding: 5px 80px;
+	color:#fff;
+}
+.lorem{
+	display: inline-block;
 }
