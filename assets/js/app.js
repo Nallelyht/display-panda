@@ -3,7 +3,7 @@ var imagen = document.getElementsByClassName("imagen");
 var cerrar = document.getElementsByClassName("cerrar");
 var longitud = imagen.length;
 var texto1 = document.getElementById("lorem1");
-var texto = document.getElementById("lorem2");
+var texto2 = document.getElementById("lorem2");
 var origen = document.getElementById("origen");
 
 
