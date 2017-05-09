@@ -10,23 +10,28 @@ var extincion = document.getElementById("extincion");
 
 restaurar.addEventListener("click",restaurarImagen);
 origen.addEventListener("click", ocultarOrigen);
-origen.addEventListener("dblclick", mostrarOrigen);
+//origen.addEventListener("dblclick", mostrarOrigen);
 extincion.addEventListener("click", ocultarExtincion);
-extincion.addEventListener("dblclick", mostrarExtincion);
+//extincion.addEventListener("dblclick", mostrarExtincion);
 
 function mostrarExtincion(){
     texto2.style.visibility="visible";
 }
 
 function ocultarExtincion(){
-    texto2.style.visibility="hidden";
-}
-function mostrarOrigen(){
-    texto1.style.visibility="visible";
+	if(texto2.style.visibility=="hidden"){
+		texto2.style.visibility="visible";
+	} else {
+		texto2.style.visibility="hidden";
+	} 
 }
 
 function ocultarOrigen(){
-    texto1.style.visibility="hidden";
+  if(texto1.style.visibility=="hidden"){
+		texto1.style.visibility="visible";
+	} else {
+		texto1.style.visibility="hidden";
+	} 
 }
 for (var i = 0; i < cerrar.length; i++){
 		cerrar[i].addEventListener("click",cerrarImagen);
